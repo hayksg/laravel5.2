@@ -1,0 +1,80 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 54px;
+  margin-bottom: 120px; /* Margin bottom by footer height */
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px; /* Set the fixed height of the footer here */
+}
+
+textarea {
+    min-height: 200px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+.auth-block {
+    color: rgba(255,255,255,.5);
+}
+
+.nav.navbar-nav .dropdown-menu a {
+    color: #8097A0 !important;
+    padding-left: 10px;
+}
+
+.nav.navbar-nav .dropdown-menu a:hover {
+    color: #555 !important;
+}
+ 
+.auth-block a {
+    color: rgba(255,255,255,.5);
+}
+
+.auth-block a:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-form button {
+    display: inline-block;
+    background: none;
+    border: none;
+    padding-left: 0;
+    color: #007bff;
+}
+
+.delete-form button:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
